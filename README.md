@@ -36,6 +36,7 @@ The same workflow is modeled with persistent files and purpose-built agents:
 
 - [`DEMO.md`](./DEMO.md): guided walkthrough of the comparison
 - [`VALUE-COMPARISON.md`](./VALUE-COMPARISON.md): concise side-by-side summary of the operational difference
+- [`CABINET-MANIFESTO.md`](./CABINET-MANIFESTO.md): distilled product philosophy based on founder feedback
 
 ## Why This Repo Exists
 
