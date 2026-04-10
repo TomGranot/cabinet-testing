@@ -43,6 +43,7 @@ Both scenarios use Claude. Both produce good content. But only one gets better o
 | Content without repetition | You manually track it | Content Agent reads the log |
 | Reacts to competitor moves | When you notice | Within 48 hours, automatically |
 | Runs while you're offline | Never | Always (cron agents) |
+| Workspace surface | Loose docs and stale trackers | Docs, sheets, briefs, and embedded apps |
 | Gets better over time | No (resets every session) | Yes (compounds) |
 | Vendor lock-in | None | None (plain markdown) |
 | Cost | Claude subscription | Cabinet is free + open source |

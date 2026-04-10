@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Command Center</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Cabinet App Surface</p>
+          <h1>Market Command Center</h1>
+          <p class="lede">
+            One live view for competitor shifts, content coverage, and next actions.
+            This is just files on disk: HTML, CSS, and JS living next to the knowledge base.
+          </p>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <span>Last refresh</span>
+            <strong>Apr 10, 2026</strong>
+          </div>
+          <div>
+            <span>Mode</span>
+            <strong>Operator view</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" id="metrics"></section>
+
+      <section class="grid">
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Competitor Pressure</p>
+              <h2>Current watchlist</h2>
+            </div>
+            <button class="ghost" data-filter="all">Show all</button>
+          </div>
+          <div class="watchlist" id="watchlist"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Content Pipeline</p>
+              <h2>What ships next</h2>
+            </div>
+            <button class="ghost" data-filter="queued">Queued only</button>
+          </div>
+          <div class="pipeline" id="pipeline"></div>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Why this matters</p>
+              <h2>System advantages</h2>
+            </div>
+          </div>
+          <ul class="advantage-list">
+            <li>Knowledge files update over time instead of resetting every session.</li>
+            <li>CSV sheets structure decisions without leaving the workspace.</li>
+            <li>Agents, docs, deliverables, and tools all reference the same context.</li>
+            <li>You can review the dashboard and drill directly into the source files behind it.</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Operator Notes</p>
+              <h2>Suggested demo beats</h2>
+            </div>
+          </div>
+          <ol class="notes">
+            <li>Start on the watchlist and point out that it is a file-backed operating view.</li>
+            <li>Open the CSV sheets next to prove the data is inspectable and editable.</li>
+            <li>Show the brief to connect the data layer to a narrative deliverable.</li>
+            <li>End by saying this app is not separate from the knowledge base. It lives inside it.</li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

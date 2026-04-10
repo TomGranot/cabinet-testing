@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Cabinet system map</title>
+  <desc id="desc">Diagram showing agents, knowledge, sheets, briefs, and app surfaces feeding each other inside one workspace.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .label { font: 700 28px Inter, Arial, sans-serif; fill: #f8fafc; }
+      .small { font: 500 18px Inter, Arial, sans-serif; fill: #cbd5e1; }
+      .tiny { font: 500 15px Inter, Arial, sans-serif; fill: #94a3b8; }
+      .card { fill: url(#card); stroke: #334155; stroke-width: 2; rx: 22; }
+      .line { stroke: #94a3b8; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <text x="70" y="82" class="label">Cabinet turns separate outputs into one connected workspace</text>
+  <text x="70" y="116" class="small">Agents update memory, structured files guide decisions, and lightweight apps sit next to the knowledge they depend on.</text>
+
+  <rect x="70" y="170" width="240" height="150" class="card"/>
+  <text x="100" y="220" class="label" font-size="24">Agents</text>
+  <text x="100" y="258" class="small">Research Agent</text>
+  <text x="100" y="288" class="small">Content Agent</text>
+  <text x="100" y="315" class="tiny">Scheduled, repeatable, shared context</text>
+
+  <rect x="390" y="170" width="300" height="150" class="card"/>
+  <text x="420" y="220" class="label" font-size="24">Knowledge</text>
+  <text x="420" y="258" class="small">competitors.md</text>
+  <text x="420" y="288" class="small">content-log.md</text>
+  <text x="420" y="315" class="tiny">Narrative memory with changelogs</text>
+
+  <rect x="770" y="170" width="320" height="150" class="card"/>
+  <text x="800" y="220" class="label" font-size="24">Sheets</text>
+  <text x="800" y="258" class="small">competitor-watchlist.csv</text>
+  <text x="800" y="288" class="small">content-pipeline.csv</text>
+  <text x="800" y="315" class="tiny">Structured, queryable operating data</text>
+
+  <rect x="190" y="430" width="300" height="150" class="card"/>
+  <text x="220" y="480" class="label" font-size="24">Deliverables</text>
+  <text x="220" y="518" class="small">weekly-market-brief.md</text>
+  <text x="220" y="548" class="small">content output queue</text>
+  <text x="220" y="575" class="tiny">Outputs reference the same memory</text>
+
+  <rect x="640" y="430" width="360" height="150" class="card"/>
+  <text x="670" y="480" class="label" font-size="24">Embedded App</text>
+  <text x="670" y="518" class="small">market-command-center/</text>
+  <text x="670" y="548" class="small">index.html + CSS + JS + .app</text>
+  <text x="670" y="575" class="tiny">Live dashboard inside the knowledge base</text>
+
+  <path d="M310 245 C350 245 350 245 390 245" class="line"/>
+  <path d="M690 245 C730 245 730 245 770 245" class="line"/>
+  <path d="M540 320 C540 370 390 390 340 430" class="line"/>
+  <path d="M770 320 C770 380 830 390 850 430" class="line"/>
+  <path d="M310 320 C310 385 300 395 300 430" class="line"/>
+  <path d="M490 505 C560 505 590 505 640 505" class="line"/>
+</svg>

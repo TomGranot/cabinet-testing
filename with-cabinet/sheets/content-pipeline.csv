@@ -1,0 +1,9 @@
+status,channel,title,primary_angle,based_on,owner,target_date
+Published,Blog,Why Small Dev Teams Are Outgrowing Linear,Linear breaks at the first cross-functional hire,competitors.md v1,Content Agent,2026-03-10
+Published,Newsletter,The One-Tool Problem,Linear plus Notion creates two sources of truth,blog post above,Content Agent,2026-03-17
+Published,Tweet Thread,3 signs you've outgrown your project tool,Signals of tool mismatch without product pitching,user interviews and competitors.md,Content Agent,2026-03-24
+Published,Blog,The Escape Jira Playbook for Dev Teams,Migration story with practical switching path,competitors.md v5,Content Agent,2026-03-31
+Published,Newsletter,What Height Got Right (And What's Still Missing),Credibility-building reaction to Height AI beta,competitors.md v7,Content Agent,2026-04-06
+Queued,Tweet Thread,Linear Asks versus DevFlow async workflows,React to new launch without repeating March angle,competitors.md changelog,Content Agent,2026-04-11
+Queued,Brief,Weekly market brief for leadership,Translate competitor shifts into decisions,competitor-watchlist.csv,Research Agent,2026-04-13
+Queued,Case Study,From Jira to DevFlow in one afternoon,Show migration in one concrete story,content-log.md and user interviews,Content Agent,2026-04-20
